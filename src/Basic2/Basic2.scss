@@ -1,0 +1,1036 @@
+* {
+    margin         : 0px;
+    padding        : 0px;
+    scroll-behavior: smooth;
+    box-sizing     : border-box;
+}
+
+.Basic2 {
+    margin-top: 0px;
+    max-width : 1350px;
+    margin    : 0 auto !important;
+    height    : 640px;
+
+    .Basic2__navbar {
+        padding-top: 10px;
+        display    : flex;
+        width      : 100%;
+        height     : 100px;
+
+
+        .paragraph {
+            align-items    : center;
+            margin-left    : 48px;
+            display        : flex;
+            justify-content: flex-start;
+            width          : 600px;
+            height         : 50px;
+
+
+            .paragraph__img {
+                margin-right: 5px;
+                width       : 34px;
+                height      : 34px;
+            }
+
+        }
+
+        .paragraph2 {
+            align-items    : center;
+            display        : flex;
+            justify-content: flex-end;
+            width          : 660px;
+            height         : 50px;
+
+
+            .paragraph2__img {
+                margin-top  : -5px;
+                margin-right: 5px;
+                width       : 50px;
+                height      : 50px;
+            }
+        }
+    }
+
+    .UniverMilan {
+        display: flex;
+        width  : 90%;
+        height : 400px;
+
+        .paragraph3 {
+            display        : flex;
+            justify-content: flex-end;
+            align-items    : flex-end;
+            width          : 420px;
+            height         : 330px;
+            font-family    : 'Raleway';
+            font-style     : normal;
+            font-weight    : 500;
+            font-size      : 40px;
+            line-height    : 47px;
+            color          : #FFFFFF;
+        }
+
+        .MilanBtn {
+            display        : flex;
+            justify-content: flex-end;
+            align-items    : end;
+            width          : 830px;
+            height         : 330px;
+
+            .Milanbtn__button {
+                display        : flex;
+                justify-content: center;
+                align-items    : center;
+                background     : none;
+                box-sizing     : border-box;
+                width          : 187px;
+                height         : 74px;
+                border         : 2px solid #D1DCE0;
+
+                h3 {
+                    display        : flex;
+                    justify-content: center;
+                    align-items    : center;
+                    width          : 90px;
+                    height         : 31px;
+                    font-family    : 'Raleway';
+                    font-weight    : 500;
+                    font-size      : 26px;
+                    color          : #D1DCE0;
+                }
+            }
+        }
+
+        .Milanbtn__button:active {
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+            background     : none;
+            box-sizing     : border-box;
+            width          : 187px;
+            height         : 74px;
+            border         : none;
+            box-shadow     : inset 0px 0px 0px 2px blue;
+        }
+    }
+
+    .blueline {
+        margin-top     : 15px;
+        background     : #000D7F;
+        display        : flex;
+        justify-content: space-around;
+        align-items    : center;
+        color          : black;
+        width          : 100%;
+        height         : 100px;
+
+        .blueline__footer {
+            width      : auto;
+            height     : 33px;
+            font-family: 'Raleway';
+            font-style : normal;
+            font-weight: 600;
+            font-size  : 28px;
+            line-height: 33px;
+            color      : #ffffff;
+
+        }
+    }
+
+    .innerBasic {
+        display   : flex;
+        flex-wrap : wrap;
+        width     : 100%;
+        height    : auto;
+        margin-top: 60px;
+
+        .innerBasic__table {
+            margin-left   : 20px;
+            margin-top    : 20px;
+            display       : grid;
+            flex-direction: column;
+            box-sizing    : border-box;
+            width         : 453px;
+            height        : 460px;
+            border        : 1px solid #949CB8;
+            border-radius : 6px;
+        }
+
+        .reyting {
+            width        : 99%;
+            border-radius: 6px;
+            display      : flex;
+            height       : 76px;
+
+            .reyting__p1 {
+                display     : flex;
+                align-items : center;
+                width       : 226px;
+                height      : 76px;
+                padding-left: 10px;
+                border      : 1px solid #949CB8;
+                font-family : 'Raleway';
+                font-style  : normal;
+                font-weight : 500;
+                font-size   : 24px;
+                line-height : 28px;
+                color       : #000000;
+                border-top  : none;
+                border-left : none !important;
+                border-right: none !important;
+            }
+
+            .reyting__p2 {
+                display     : flex;
+                align-items : center;
+                width       : 226px;
+                height      : 76px;
+                padding-left: 10px;
+                border      : 1px solid #949CB8;
+                font-family : 'Raleway';
+                font-style  : normal;
+                font-weight : 500;
+                font-size   : 24px;
+                line-height : 28px;
+                color       : #000000;
+                border-top  : none;
+
+            }
+        }
+
+        .strana {
+            width        : 99%;
+            border-radius: 6px;
+            display      : flex;
+            height       : 76px;
+
+            .strana__p1 {
+                display     : flex;
+                align-items : center;
+                width       : 226px;
+                height      : 77px;
+                padding-left: 10px;
+                border      : 1px solid #949CB8;
+                font-family : 'Raleway';
+                font-style  : normal;
+                font-weight : 500;
+                font-size   : 24px;
+                line-height : 28px;
+                color       : #000000;
+                border-top  : none;
+                border-left : none;
+                border-right: none !important;
+            }
+
+            .strana__p2 {
+                display     : flex;
+                align-items : center;
+                width       : 226px;
+                height      : 77px;
+                padding-left: 10px;
+                padding-left: 10px;
+                padding-left: 10px;
+                border      : 1px solid #949CB8;
+                font-family : 'Raleway';
+                font-style  : normal;
+                font-weight : 500;
+                font-size   : 24px;
+                line-height : 28px;
+                color       : #000000;
+                border-top  : none !important;
+            }
+        }
+
+        .gorod {
+            width        : 99%;
+            border-radius: 6px;
+            display      : flex;
+            height       : 76px;
+
+            .gorod__p1 {
+                align-items : center;
+                width       : 226px;
+                height      : 76px;
+                padding-left: 10px;
+                border      : 1px solid #949CB8;
+                font-family : 'Raleway';
+                font-style  : normal;
+                font-weight : 500;
+                font-size   : 24px;
+                line-height : 28px;
+                color       : #000000;
+                border-left : none !important;
+                border-top  : none !important;
+                border-right: none !important;
+                display     : flex;
+            }
+
+            .gorod__p2 {
+                display     : flex;
+                align-items : center;
+                width       : 226px;
+                height      : 76px;
+                padding-left: 10px;
+                border      : 1px solid #949CB8;
+                font-family : 'Raleway';
+                font-style  : normal;
+                font-weight : 500;
+                font-size   : 24px;
+                line-height : 28px;
+                color       : #000000;
+                border-top  : none !important;
+            }
+        }
+
+        .bakalavriyat {
+            width        : 99%;
+            border-radius: 6px;
+            display      : flex;
+            height       : 76px;
+
+
+            .bakalavriyat__p1 {
+                border      : none !important;
+                display     : flex;
+                align-items : center;
+                width       : 226px;
+                height      : 76px;
+                padding-left: 10px;
+                border      : 1px solid #949CB8;
+                font-family : 'Raleway';
+                font-style  : normal;
+                font-weight : 500;
+                font-size   : 24px;
+                line-height : 28px;
+                color       : #000000;
+            }
+
+
+            .bakalavriyat__p2 {
+                border      : none !important;
+                border-left : 1px solid #949CB8 !important;
+                display     : flex;
+                align-items : center;
+                width       : 226px;
+                height      : 76px;
+                padding-left: 10px;
+                border      : 1px solid #949CB8;
+                font-family : 'Raleway';
+                font-style  : normal;
+                font-weight : 500;
+                font-size   : 24px;
+                line-height : 28px;
+                color       : #000000;
+            }
+        }
+
+
+        .magistratura {
+            width        : 99%;
+            border-radius: 6px;
+            display      : flex;
+            height       : 76px;
+
+
+            .magistratura__p1 {
+                display      : flex;
+                align-items  : center;
+                width        : 226px;
+                height       : 76px;
+                padding-left : 10px;
+                border       : 1px solid #949CB8;
+                font-family  : 'Raleway';
+                font-style   : normal;
+                font-weight  : 500;
+                font-size    : 24px;
+                line-height  : 28px;
+                color        : #000000;
+                border-left  : none !important;
+                border-bottom: none !important;
+                border-right : none !important;
+            }
+
+            .magistratura__p2 {
+                display     : flex;
+                align-items : center;
+                width       : 226px;
+                height      : 78px;
+                padding-left: 10px;
+                border      : 1px solid #949CB8;
+                font-family : 'Raleway';
+                font-style  : normal;
+                font-weight : 500;
+                font-size   : 24px;
+                line-height : 28px;
+                color       : #000000;
+            }
+        }
+
+        .tsena {
+            width        : 99%;
+            border-radius: 6px;
+            display      : flex;
+            height       : 76px;
+
+            .tsena__p1 {
+                display       : flex;
+                align-items   : center;
+                width         : 230px;
+                height        : 76px;
+                padding-left  : 10px;
+                border        : 1px solid #949CB8;
+                font-family   : 'Raleway';
+                font-style    : normal;
+                font-weight   : 500;
+                font-size     : 24px;
+                line-height   : 28px;
+                color         : #000000;
+                border-radius : 0px 0px 0px 8px;
+                border-bottom : none;
+                border-left   : none !important;
+                line-height   : 28px;
+                letter-spacing: 0.015em;
+                text-align    : left;
+            }
+
+            .tsena__p2 {
+                display      : flex;
+                align-items  : center;
+                width        : 230px;
+                height       : 76px;
+                padding-left : 10px;
+                border       : px solid #949CB8;
+                font-family  : 'Raleway';
+                font-style   : normal;
+                font-weight  : 500;
+                font-size    : 24px;
+                line-height  : 28px;
+                color        : #000000;
+                border-radius: 0px 0px 8px 0px;
+            }
+        }
+
+
+
+    }
+
+    .About {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+        width         : 800px;
+        height        : 800px;
+        font-family   : 'Raleway';
+        font-style    : normal;
+        font-weight   : 500;
+        font-size     : 20px;
+        line-height   : 166.7%;
+        letter-spacing: 0.015em;
+        color         : #000000;
+        margin-left   : 30px !important;
+
+        &__head {
+            display        : flex;
+            justify-content: flex-start;
+            width          : 800px;
+            font-weight    : 560;
+            font-size      : 26px;
+        }
+
+        &__Aboutinit {
+            display       : flex;
+            width         : 800px;
+            height        : auto;
+            font-weight   : 500;
+            font-size     : 25px;
+            line-height   : 166.7%;
+            letter-spacing: 0.015em;
+            color         : #000000;
+        }
+
+        &__Aboutinit2 {
+            width         : 800px;
+            height        : 600px;
+            font-weight   : 500;
+            font-size     : 24px;
+            line-height   : 166.7%;
+            letter-spacing: 0.015em;
+            color         : #000000;
+            margin-top    : 20px;
+        }
+
+
+    }
+
+    .map {
+        margin-top : -262px;
+        margin-left: 20px;
+        width      : 455px;
+        height     : 800px;
+        color      : #000000;
+
+        &__img {
+            width : 451px;
+            height: 388px;
+        }
+
+    }
+
+    .chart {
+        margin-left: 20px;
+        display    : flex;
+        margin-top : 40px;
+        width      : 449px+800px;
+        height     : 324.79px;
+
+    }
+
+    .fakulteti {
+        width : 800px;
+        height: 320px;
+    }
+
+    .fakulteti__p {
+        margin-left: 25px;
+        width      : 177px;
+        height     : 35px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 600;
+        font-size  : 30px;
+        line-height: 35px;
+        color      : #000000;
+
+    }
+
+    .fakulteti__li {
+        margin-left   : 50px;
+        width         : auto;
+        height        : 44px;
+        font-family   : 'Raleway';
+        font-style    : normal;
+        font-weight   : 500;
+        font-size     : 26px;
+        line-height   : 170.2%;
+        letter-spacing: 0.015em;
+        color         : #000000;
+    }
+
+    .protsez {
+        margin-left: 40px;
+        width      : 324px;
+        height     : 35px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 600;
+        font-size  : 30px;
+        line-height: 35px;
+        color      : #000000;
+
+    }
+
+    .USD {
+        margin-left   : 40px;
+        width         : 1300px;
+        height        : 129px;
+        font-family   : 'Raleway';
+        font-style    : normal;
+        font-weight   : 400;
+        font-size     : 26px;
+        line-height   : 166.7%;
+        letter-spacing: 0.015em;
+        color         : #000000;
+
+    }
+
+    .spetsialisti {
+        margin-left   : 40px;
+        width         : 1355px;
+        height        : 47px;
+        font-family   : 'Raleway';
+        font-style    : normal;
+        font-weight   : 600;
+        font-size     : 28px;
+        line-height   : 166.7%;
+        letter-spacing: 0.015em;
+        color         : #000000;
+    }
+
+    .spetsialisti_ol {
+        margin-top : 43px;
+        margin-left: 40px;
+        width      : 1370px;
+        height     : auto;
+        color      : #000000;
+    }
+
+    .spetsialisti_li {
+        width      : 1170px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 26px;
+        line-height: 212.2%;
+        color      : #000000;
+        height     : auto;
+    }
+
+    .dokumenti {
+        display        : flex;
+        justify-content: center;
+        align-items    : end;
+        width          : 100%;
+        height         : 100px;
+    }
+
+    .dokumenti__btn {
+        width        : 247px;
+        height       : 63px;
+        background   : #000D7F;
+        border-radius: 10px;
+        font-family  : 'Raleway';
+        font-style   : normal;
+        font-weight  : 600;
+        font-size    : 20px;
+        line-height  : 23px;
+        color        : #FFFFFF;
+    }
+
+    .dokumenti__btn:active {
+        box-shadow   : 0px 0px 0px 1px #737bbf;
+        width        : 247px;
+        height       : 63px;
+        background   : #000D7F;
+        border-radius: 10px;
+        font-family  : 'Raleway';
+        font-style   : normal;
+        font-weight  : 600;
+        font-size    : 20px;
+        line-height  : 23px;
+        color        : #FFFFFF;
+
+    }
+
+    .mySwiper {
+        padding-left   : 5px;
+        margin-top     : 88px;
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        width          : 1350px;
+        height         : auto;
+    }
+
+    .mySwiper__slide {
+        width        : 385px !important;
+        height       : 331px !important;
+        background   : linear-gradient(0deg, rgba(0, 13, 127, 0.2), rgba(0, 13, 127, 0.2)), url(.jpg), #C4C4C4;
+        border-radius: 12px;
+    }
+
+    .lastfooter {
+        display   : flex;
+        width     : 100%;
+        height    : 753px;
+        background: #000D7F;
+    }
+
+    .lastfooterinit1 {
+        padding-left: 20px;
+        width       : 33%;
+        height      : 753px;
+
+    }
+
+    .education {
+        margin-left: 40px;
+        margin-top : 54px;
+        width      : 241px;
+        height     : 31px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 700;
+        font-size  : 26px;
+        line-height: 31px;
+        color      : #FFFFFF;
+    }
+
+    .address__p {
+        margin-top : 35px;
+        margin-left: 40px;
+        width      : auto;
+        height     : 28px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .address {
+        height: auto;
+    }
+
+    .address__h4 {
+        margin-left: 40px;
+        margin-top : 10px;
+        width      : 296px;
+        height     : 56px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 600;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .pochta {
+        height: auto;
+    }
+
+    .pochta__p {
+        margin-top : 35px;
+        margin-left: 40px;
+        width      : auto;
+        height     : 28px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .pochta__h4 {
+        margin-left: 40px;
+        margin-top : 10px;
+        width      : auto;
+        height     : auto;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 600;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .number {
+        height: auto;
+    }
+
+    .number__p {
+        margin-top : 35px;
+        margin-left: 40px;
+        width      : auto;
+        height     : 28px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .number__h4 {
+        margin-top : 10px;
+        margin-left: 40px;
+        width      : auto;
+        height     : 28px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .worktime {
+        height: auto;
+    }
+
+    .worktime__p {
+        margin-top : 35px;
+        margin-left: 40px;
+        width      : auto;
+        height     : auto;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .worktime__h4 {
+        margin-top : 10px;
+        margin-left: 40px;
+        width      : auto;
+        height     : auto;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .lastfooterinit2 {
+        width : 33%;
+        height: 753px;
+    }
+
+    .onas {
+        margin-top : 50px;
+        margin-left: 40px;
+        width      : auto;
+        height     : auto;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .eduget {
+        margin-left: 40px;
+        margin-top : 35px;
+        width      : auto;
+        height     : 310px;
+        font-family: fangsong;
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 24px;
+        line-height: 133.7%;
+        color      : #FFFFFF;
+    }
+
+    .granits {
+        margin-left    : 40px;
+        margin-top     : 25px;
+        width          : auto;
+        height         : 200px;
+        justify-content: center;
+        font-weight    : 400;
+        font-size      : 24px;
+        font-style     : normal;
+        line-height    : 133.7%;
+        color          : #FFFFFF;
+    }
+
+    .ending {
+        font-family    : cursive;
+        display        : flex;
+        justify-content: center;
+        margin-top     : 44px;
+        width          : auto;
+        height         : 28px;
+    }
+
+    .lastfooterinit3 {
+        width : 33%;
+        height: 753px;
+    }
+
+    .novosti {
+        margin-top : 50px;
+        margin-left: 40px;
+        width      : auto;
+        height     : auto;
+        font-family: Raleway;
+        font-style : normal;
+        font-weight: 100;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .potpishites {
+        margin-top : 35px;
+        margin-left: 40px;
+        width      : 394px;
+        height     : 84px;
+        left       : 1006px;
+        top        : 3509px;
+        font-family: Raleway;
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .emailbtn {
+        height: auto;
+        color : #FFFFFF;
+    }
+
+    .emailbtn input {
+        margin-top   : 35px;
+        margin-left  : 40px;
+        padding-left : 22px;
+        display      : flex;
+        align-items  : center;
+        box-sizing   : border-box;
+        font-size    : 20px;
+        width        : 394px;
+        height       : 85px;
+        border       : 1.5px solid #FFFFFF;
+        border-radius: 12px;
+        background   : none;
+        color        : #FFFFFF;
+    }
+
+    input::placeholder {
+        width         : 173px;
+        height        : 23px;
+        font-style    : normal;
+        font-weight   : 400;
+        font-size     : 20px;
+        line-height   : 23px;
+        letter-spacing: 0.02em;
+        color         : #FFFFFF;
+    }
+
+    .emailbtn input:hover {
+        box-shadow   : inset 0px 0px 0px 1px rgb(255, 255, 255);
+        margin-top   : 35px;
+        margin-left  : 40px;
+        padding-left : 22px;
+        display      : flex;
+        align-items  : center;
+        box-sizing   : border-box;
+        width        : 394px;
+        height       : 85px;
+        border       : 1.5px solid #FFFFFF;
+        border-radius: 12px;
+    }
+
+    .potpisatsiyabtn {
+        margin-top     : 24px;
+        margin-left    : 40px;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        box-sizing     : border-box;
+        width          : 394px;
+        height         : 88px;
+        background     : #E2F1F8;
+        border-radius  : 12px;
+
+    }
+
+    .potpisatsiyabtn:active {
+        box-shadow     : inset 0px 0px 0px 2px blue;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        box-sizing     : border-box;
+        width          : 394px;
+        height         : 88px;
+        background     : #E2F1F8;
+        border-radius  : 12px;
+
+    }
+
+    .potpisatsiyabtn p {
+        width      : 175px;
+        height     : 33px;
+        font-family: 'Raleway';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 28px;
+        line-height: 33px;
+        color      : #000000;
+    }
+
+    .politika {
+        margin-top     : 58px;
+        display        : flex;
+        justify-content: center;
+        width          : auto;
+        height         : 28px;
+        font-family    : "railway";
+        font-style     : normal;
+        font-weight    : 700;
+        font-size      : 24px;
+        line-height    : 28px;
+        color          : #FFFFFF;
+    }
+
+    .footericons {
+        display        : flex;
+        margin-top     : 62px;
+        align-items    : center;
+        justify-content: end;
+        width          : 400px;
+        height         : 40px;
+    }
+
+    .telegramicon {
+        width : 35px;
+        height: 35px;
+
+    }
+
+    .footericons img:hover {
+        width     : 35px;
+        height    : 35px;
+        box-shadow: 0px 1px 0px 0px #ffffff;
+
+    }
+
+    .instagramicon {
+        margin: 38px;
+        width : 35px;
+        height: 35px;
+    }
+
+
+    .swiper {
+        width          : 100%;
+        height         : 250px;
+        text-align     : center;
+        font-size      : 18px;
+        display        : flex;
+        justify-content: center;
+        align-items    : center !important;
+        margin-top     : 170px;
+        margin-bottom  : 86px;
+    }
+
+    .slideimg img {
+        opacity      : 10;
+        border-radius: 15px;
+        box-shadow   :
+            rgba(0, 0, 0, 0.16) 0px 3px 6px,
+            rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        margin-left: 25px;
+        width      : 385px;
+        height     : 231px;
+        margin     : 25px;
+    }
+
+    .swiper-pagination {
+        display         : flex;
+        justify-content : center;
+        align-items     : center;
+        height          : 35px !important;
+        top             : 220px !important;
+        color           : #000000;
+        background-color: none;
+        z-index         : 10;
+
+    }
+
+    .slideimg {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        width          : 100%;
+        height         : 231px;
+    }
+
+}

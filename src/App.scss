@@ -1,0 +1,39 @@
+* {
+    margin         : 0px;
+    padding        : 0px;
+    scroll-behavior: smooth;
+    box-sizing     : border-box;
+}
+
+a {
+    font-weight    : 500;
+    color          : #FFFFFF;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: rgb(128, 128, 206);
+}
+
+body {
+    background     : url("./Basic2images/backgroundimg.png")no-repeat;
+    background-size: 100% 80vh;
+    display        : flex;
+    justify-content: center;
+    margin         : 0;
+    min-width      : 320px;
+    min-height     : 100vh;
+    color          : #FFFFFF;
+}
+// @media (max-width:1920px) {
+//     body {
+//         background     : url("./Basic2images/backgroundimg.png")no-repeat;
+//         background-size: 1920px 80vh;
+//         display        : flex;
+//         justify-content: center;
+//         margin         : 0;
+//         min-width      : 320px;
+//         min-height     : 100vh;
+//         color          : #FFFFFF;
+//     }
+// }
